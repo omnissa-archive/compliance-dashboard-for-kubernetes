@@ -1,5 +1,5 @@
 /*
-Copyright 2023-2024 VMware Inc.
+Copyright 2023-2024 Omnissa, LLC.
 SPDX-License-Identifier: Apache-2.0
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -133,8 +133,8 @@ func getUserInfo(accessToken string) (map[string]interface{}, error) {
 			"username":"nanw",
 			"name":"Nan Wang",
 			"state":"active",
-			"avatar_url":"https://gitlab.eng.vmware.com/uploads/-/system/user/avatar/2117/avatar.png",
-			"web_url":"https://gitlab.eng.vmware.com/nanw",
+			"avatar_url":"https://gitlab.eng.omnissa.com/uploads/-/system/user/avatar/2117/avatar.png",
+			"web_url":"https://gitlab.eng.omnissa.com/nanw",
 			"created_at":"2017-11-08T22:34:05.821Z",
 			"bio":"",
 			"location":"",
@@ -155,21 +155,21 @@ func getUserInfo(accessToken string) (map[string]interface{}, error) {
 			"last_sign_in_at":"2022-02-05T16:18:42.255Z",
 			"confirmed_at":"2017-11-08T22:34:05.807Z",
 			"last_activity_on":"2023-06-06",
-			"email":"nanw@vmware.com",
+			"email":"nanw@omnissa.com",
 			"theme_id":1,
 			"color_scheme_id":1,
 			"projects_limit":400,
 			"current_sign_in_at":"2023-01-02T18:37:26.047Z",
 			"identities":[
-				{"provider":"saml","extern_uid":"nanw@vmware.com","saml_provider_id":null},
-				{"provider":"ldapmain","extern_uid":"cn=nan wang 71200,ou=glo_users,ou=global,ou=sites,ou=engineering,dc=vmware,dc=com","saml_provider_id":null}
+				{"provider":"saml","extern_uid":"nanw@omnissa.com","saml_provider_id":null},
+				{"provider":"ldapmain","extern_uid":"cn=nan wang 71200,ou=glo_users,ou=global,ou=sites,ou=engineering,dc=omnissa,dc=com","saml_provider_id":null}
 			],
 			"can_create_group":true,
 			"can_create_project":true,
 			"two_factor_enabled":true,
 			"external":false,
 			"private_profile":false,
-			"commit_email":"nanw@vmware.com",
+			"commit_email":"nanw@omnissa.com",
 			"shared_runners_minutes_limit":null,
 			"extra_shared_runners_minutes_limit":null
 		}

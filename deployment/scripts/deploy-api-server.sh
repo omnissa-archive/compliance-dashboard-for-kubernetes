@@ -18,5 +18,5 @@ envsubst < api-server.yaml | kubectl apply -f -
 kubectl wait deployment -n collie-server api-server --for condition=Available=True --timeout=90s
 AUTH_TOKEN=gitlab/$(source auth-gitlab.sh | jq -r '.access_token')
 sleep 10
-curl -skH "Authorization: $AUTH_TOKEN" https://collie.eng.vmware.com/collie/api/v1/onboarding/bootstrap
+curl -skH "Authorization: $AUTH_TOKEN" https://collie.eng.omnissa.com/collie/api/v1/onboarding/bootstrap
 

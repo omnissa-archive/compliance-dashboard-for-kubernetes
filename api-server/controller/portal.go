@@ -1,5 +1,5 @@
 /*
-Copyright 2023-2024 VMware Inc.
+Copyright 2023-2024 Omnissa, LLC.
 SPDX-License-Identifier: Apache-2.0
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,7 +46,7 @@ func (c *Controller) PortalIndex(ctx *gin.Context) {
 	}
 	cfg := config.Get()
 	data := gin.H{
-		"grafanaURL":   cfg.GrafanaURL,       //"https://collie.eng.vmware.com/d/qIbLYbT4z/k8s-compliance-report"
+		"grafanaURL":   cfg.GrafanaURL,       //"https://collie.eng.omnissa.com/d/qIbLYbT4z/k8s-compliance-report"
 		"grafanaOrgId": orgInfo.GrafanaOrgId, //"1"
 	}
 	ctx.HTML(http.StatusOK, "index.html", data)

@@ -1,6 +1,6 @@
 # compliance-dashboard-for-kubernetes
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://github.com/vmware-labs/compliance-dashboard-for-kubernetes/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://github.com/omnissa-archive/compliance-dashboard-for-kubernetes/blob/main/LICENSE)
 
 ## Overview
 A K8s compliance checker aggregator with a dashboard and analyzer of K8s compliance, as well as 3rd party scanners integration.
@@ -102,7 +102,7 @@ minikube delete
 
 ## Contributing
 
-The compliance-dashboard-for-kubernetes project team welcomes contributions from the community. Before you start working with compliance-dashboard-for-kubernetes, please read and sign our [Contributor License Agreement CLA](CONTRIBUTING_CLA.md). If you wish to contribute code and you have not signed our contributor license agreement (CLA), our bot will prompt you to do so when you open a Pull Request. For any questions about the CLA process, please refer to our [FAQ]([https://cla.vmware.com/faq](https://cla.vmware.com/faq)).
+The compliance-dashboard-for-kubernetes project team welcomes contributions from the community.
 
 For more detailed information, refer to [CONTRIBUTING_CLA.md](CONTRIBUTING_CLA.md).
 

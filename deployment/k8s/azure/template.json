@@ -217,7 +217,7 @@
                                 "emailReceivers": [
                                     {
                                         "name": "Email_-EmailAction-",
-                                        "emailAddress": "nanw@vmware.com",
+                                        "emailAddress": "nanw@omnissa.com",
                                         "useCommonAlertSchema": true
                                     }
                                 ],

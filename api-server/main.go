@@ -1,5 +1,5 @@
 /*
-Copyright 2023-2024 VMware Inc.
+Copyright 2023-2024 Omnissa, LLC.
 SPDX-License-Identifier: Apache-2.0
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -99,13 +99,13 @@ func startRestController() error {
 	// - Credentials share
 	// - Preflight requests cached for 12 hours
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"https://collie.eng.vmware.com", "http://localhost:8081", "*"},
+		AllowOrigins:     []string{"https://collie.eng.omnissa.com", "http://localhost:8081", "*"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "PATCH"},
 		AllowHeaders:     []string{"Origin", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
 		AllowCredentials: true,
 		// AllowOriginFunc: func(origin string) bool {
-		//     return origin == "https://collie.eng.vmware.com.com"
+		//     return origin == "https://collie.eng.Omnissa.com.com"
 		// },
 		MaxAge: 12 * time.Hour,
 	}))

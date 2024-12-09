@@ -44,7 +44,7 @@ envsubst < api-server.yaml | kubectl apply -f -
 kubectl wait deployment -n collie-server api-server --for condition=Available=True --timeout=90s
 AUTH_TOKEN=gitlab/$(source auth-gitlab.sh | jq -r '.access_token')
 sleep 10
-BOOTSTRAP_CMD=$(curl -skH "Authorization: $AUTH_TOKEN" https://collie.eng.vmware.com/collie/api/v1/onboarding/bootstrap | jq -r ".cmd")
+BOOTSTRAP_CMD=$(curl -skH "Authorization: $AUTH_TOKEN" https://collie.eng.omnissa.com/collie/api/v1/onboarding/bootstrap | jq -r ".cmd")
 
 AGENT_ID=$(echo $BOOTSTRAP_CMD | sed -n 's/.*aid\=\(.*\)\".*/\1/p')
 

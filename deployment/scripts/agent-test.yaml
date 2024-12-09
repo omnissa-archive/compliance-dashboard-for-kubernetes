@@ -332,7 +332,7 @@ spec:
           imagePullPolicy: IfNotPresent
           env:
             - name: API_URL
-              value: "https://collie.eng.vmware.com:9200"
+              value: "https://collie.eng.omnissa.com:9200"
             - name: PROVIDER
               value: "aks"
             - name: PPROF_PORT

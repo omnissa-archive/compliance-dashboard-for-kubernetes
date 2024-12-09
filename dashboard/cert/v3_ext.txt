@@ -6,5 +6,5 @@ extendedKeyUsage        = critical, serverAuth
 subjectAltName          = @alt_names
 
 [alt_names]
-DNS.1 = nanw.eng.vmware.com
-DNS.2 = collie.eng.vmware.com
+DNS.1 = nanw.eng.omnissa.com
+DNS.2 = collie.eng.omnissa.com

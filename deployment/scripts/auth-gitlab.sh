@@ -2,7 +2,7 @@
 
 source .env
 
-GITLAB_URL="https://gitlab.eng.vmware.com"
+GITLAB_URL="https://gitlab.eng.omnissa.com"
 SCOPES="read_user"
 
 # Request an OAuth access token from GitLab
